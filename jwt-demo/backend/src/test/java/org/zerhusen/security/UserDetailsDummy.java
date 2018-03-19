@@ -10,7 +10,9 @@ import java.util.Collection;
  */
 public class UserDetailsDummy implements UserDetails {
 
-    private final String username;
+	private static final long serialVersionUID = 579348129903912991L;
+	
+	private final String username;
 
     public UserDetailsDummy(String username) {
         this.username = username;
